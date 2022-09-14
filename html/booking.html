@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto+Slab:wght@500;700&display=swap" rel="stylesheet">
+
+    <title>Bokning - Resturang Spot</title>
+</head>
+<body>
+    <header>
+        <nav class="container-header">
+            <div>
+                <a href="../index.html"><img class="logo" src="../images/spot_logo.jpg" alt="Spot logo"></a>
+            </div>
+
+            <div class="container-links">
+                <a href="../index.html">Välkommen</a>
+                <a href="menu.html">Meny</a>
+                <a style="border-bottom:1px solid rgb(88, 85, 85);" href="booking.html">Boka bord/Hitta hit</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <img src="../images/Spotbanner.jpg" alt="Svart-vit bild på grundarna av spot">
+    </div>
+
+    <main class="booking-grid-container">
+        <section>
+            <article>
+                <h1 class="headings">BOKA BORD</h1>
+                <p>Boka bord via <a href="tel:040-12 02 03">040-12 02 03</a> / <a href="mailto:info@resturangspotmalmo.se">info@resturangspotmalmo.se</a> eller formuläret nedan.</p>
+            </article>
+        </section>
+
+        <section>
+            <h3 class="headings">Hitta</h3>
+        </section>
+
+        <section>
+            <article class="form-container">
+                <form>
+                    <div>
+                        <label for="name">Namn:</label>
+                        <input id="name" type="name">
+                    </div>
+
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email">
+                    </div>
+            
+                    <div>
+                        <label for="date">Datum:</label>
+                        <input id="date" type="date">
+                    </div>
+
+                    <div>
+                        <label for="number">Antal:</label>
+                        <input type="number" min="1" max="15">
+                    </div>
+            
+                    <div>
+                        <label for="time">Tid:</label>
+                        <input id="time" type="time" min="11:30" max="23:00">
+                    </div>
+            
+                    <div class="textarea-container">
+                        <label for="requests">Övriga önskemål:</label>
+                        <textarea id="requests" rows="4"></textarea>
+                    </div>
+            
+                    <div>
+                        <input type="submit" value="Boka">
+                    </div>
+                </form>
+            </article>
+        </section>
+        
+        <section>
+            <article class="map-container">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2253.905978549093!2d13.00075368020857!3d55.603649980609134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a3fd716126f3%3A0xe9cc17c0d7a27a74!2sSpot!5e0!3m2!1ssv!2sse!4v1662978349921!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+        </section>
+
+    
+        <section>
+            <h1 class="headings">Öppetider</h1>
+            <div class="openinghours">
+                <p><strong>Mån - Tors: </strong>11:30 -21:00</p>
+                <p><strong>Fre - Lör: </strong>11:30 -22:00</p>
+                <p><strong>Söndag: </strong>12:00 - 23:00</p>
+            </div>
+        </section>
+
+
+        <section>
+            <h1 class="headings">Kontakt</h1>
+            <div class="contact-info">
+                <p>Resturang Spot</p>
+                <p>Address: Stora Nygatan 33, 211 37 Malmö</p>
+                <p>Tel:<a href="tel:040-12 02 03">040-12 02 03</a></p>
+                <p>Email: <a href="mailto::info@restaurangspotmalmo.se">info@restaurangspotmalmo.se</a></p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="container-footer">
+        <section class="footer-contact-info">
+            <p>Resturang Spot | Stora Nygatan 33, 211 37 Malmö | <a href="tel:+460120203">040-12 02 03</a></p>    
+        </section>
+
+        <section class="facebook-logo-section">
+            <div class="facebook-logo-container">
+                <a class="facebook-logo" href="https://www.facebook.com/RestaurangSpot">f</a>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
